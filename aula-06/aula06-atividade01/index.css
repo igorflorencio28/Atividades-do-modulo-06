@@ -1,0 +1,23 @@
+
+
+.conteiner {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+
+.cabeçalho {
+    background-color: aqua;
+    text-align: center;
+}
+
+.principal {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape {
+    background-color: yellow;
+}

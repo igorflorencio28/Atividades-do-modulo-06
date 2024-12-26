@@ -1,0 +1,8 @@
+@media (max-width: 600px) {
+    .conteiner {
+        font-size: 25px;
+    }
+    button {
+        background-color: aqua;
+    }
+}

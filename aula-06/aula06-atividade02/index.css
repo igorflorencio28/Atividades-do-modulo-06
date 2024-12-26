@@ -1,0 +1,20 @@
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: rgba(205, 133, 50, 0.308);
+    height: 650px;
+}
+
+img {
+    width: 500px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+img:hover{ 
+    z-index: 1;
+    width: 550px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}

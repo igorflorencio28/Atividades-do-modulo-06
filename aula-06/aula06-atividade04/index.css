@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Creepster&family=Eater&family=Fjalla+One&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Trocchi&display=swap');
+
+p::first-letter {
+    font-size: 3em;
+    color: blue;
+    font-family: "Oswald", serif;
+    font-weight: bold;
+}
+
+p::first-line {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color:brown
+}
